@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CryptoJS from "crypto-js";
 import "./App.css";
 
-// 🔐 Funciones con clave "leolopez"
+// 🔐 Funciones de cifrado y descifrado con clave "leolopez"
 const cifrar = (texto) => {
   return CryptoJS.AES.encrypt(texto, "leolopez").toString();
 };
